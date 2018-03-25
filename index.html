@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>deligter demo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <section id="first" data-delighter class="splash">
+        <div class="content">
+            <h1 data-delighter class="right">Foodie Website</h1>
+            <h2 data-delighter class="left">Combine delighters.js and bigpicure.js</h2>
+            <p data-delighter="start:1" class="bottom">
+                Learn now knowledge everyday with me
+                
+                <a href="https://yifangdi.blogspot.com/">Blog</a>
+            </p>
+        </div>
+    </section>
+
+    <section id="image_container" data-delighter=“start:0.6” >
+       <div data-delighter class="right"><a  href="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=74ac7c1aa35dc36f50cc1ac7517c70a7&auto=format&fit=crop&w=1350&q=80">
+          <img data-bp="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=74ac7c1aa35dc36f50cc1ac7517c70a7&auto=format&fit=crop&w=1350&q=80" src="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=74ac7c1aa35dc36f50cc1ac7517c70a7&auto=format&fit=crop&w=400&q=60">
+        </a></div> 
+        <div data-delighter class="left"><a href="https://images.unsplash.com/photo-1485963631004-f2f00b1d6606?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a98ac47048f530b6d587279d52c13ab7&auto=format&fit=crop&w=1268&q=80">
+          <img data-bp="https://images.unsplash.com/photo-1485963631004-f2f00b1d6606?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a98ac47048f530b6d587279d52c13ab7&auto=format&fit=crop&w=1268&q=80" src="https://images.unsplash.com/photo-1485963631004-f2f00b1d6606?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a98ac47048f530b6d587279d52c13ab7&auto=format&fit=crop&w=500&q=60">
+        </a></div>
+        <div data-delighter class="left">
+        	<a href="https://images.unsplash.com/photo-1455099675745-a442989ac8bf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=241a82b0512a639a6bd9aadde4962cf9&auto=format&fit=crop&w=1283&q=80">
+          <img data-bp="https://images.unsplash.com/photo-1455099675745-a442989ac8bf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=241a82b0512a639a6bd9aadde4962cf9&auto=format&fit=crop&w=1283&q=80" src="https://images.unsplash.com/photo-1455099675745-a442989ac8bf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=241a82b0512a639a6bd9aadde4962cf9&auto=format&fit=crop&w=400&q=60">
+        </a>
+        </div>
+<div data-delighter class="right"><a href="https://images.unsplash.com/photo-1485963631004-f2f00b1d6606?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a98ac47048f530b6d587279d52c13ab7&auto=format&fit=crop&w=1268&q=80">
+          <img data-bp="https://images.unsplash.com/photo-1485963631004-f2f00b1d6606?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a98ac47048f530b6d587279d52c13ab7&auto=format&fit=crop&w=1268&q=80" src="https://images.unsplash.com/photo-1485963631004-f2f00b1d6606?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a98ac47048f530b6d587279d52c13ab7&auto=format&fit=crop&w=500&q=60">
+        </a></div>
+    </section>
+    <section class="feature">
+        <h2 data-delighter class="right">Features</h2>
+        <ul data-delighter>
+            <li>Traditional onion soup</li>
+            <li>Frogs legs with fenel puree</li>
+            <li>Light footprint</li>
+            <li>Filet de boeuf </li>
+            <li>Fish fillet and fresh vegetables
+Read more at</li>
+            <li>Knuckle of pork, pear sauce and green lentils</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <form id="form" data-delighter class="right Before top">
+		  <input id="name" type="text" placeholder="NAME">
+		  <input id="email" type="text" placeholder="E-MAIL">
+		  <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+  <input id="submit" type="submit" value="GO!">
+  
+</form>
+
+    </section>
+     <footer>All right Reserved</footer>
+    <script type="text/javascript" src="js/delighters.js"></script>
+    <script type="text/javascript" src="js/BigPicture.min.js"></script>
+    <script type="text/javascript">
+    	var imageLinks = document.querySelectorAll('#image_container a')
+for (var i = 0; i < imageLinks.length; i++) {
+  imageLinks[i].addEventListener('click', function(e) {
+    e.preventDefault();
+    BigPicture({
+      el: e.target,
+      gallery: '#image_container'
+    });
+  })
+}
+    </script>
+</body>
+
+</html>
